@@ -1,0 +1,304 @@
+/* GENERAL STYLES */
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a.fixed {
+  text-decoration: none;
+  position: fixed;
+  top: 1;
+  left: 1;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* SECTION TITLES */
+
+h1#site-title {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  transform: translateY(-40%);
+  font-size: 75px;
+  color: #eeeeee;
+  margin: auto;
+}
+
+h1.section-title {
+  padding-left: 15%;
+  font-size: 40px;
+}
+
+/* CONTENT SECTIONS */
+
+/* NAVIGATION */
+div.navigation {
+  position: fixed;
+  color: white;
+  font-size: 22px;
+  background-color: black;
+  opacity: .5;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+a.navigation-buttons {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 22px 25px;
+}
+
+a.navigation-buttons:hover {
+  color: #aaaaaa;
+}
+
+/* HERO GRAPHIC */
+div.hero-graphic {
+  background-image: url('https://res.cloudinary.com/justin-bresee/image/upload/c_scale,w_2000/v1566427606/background_1_q5fu2v.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+/* ABOUT ME CONTENT SECTION */
+div#about-me{
+  background-color: #dddddd;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+p.about-me-info {
+  width: 75%;
+  display: inline-block;
+  padding-left: 15%;
+  font-size: 16px;
+  color: #777777
+}
+
+/* SKILLS CONTENT SECTION */
+div.skills {
+  background-image: url('https://res.cloudinary.com/justin-bresee/image/upload/c_scale,w_2000/v1566511802/architecture-buildings-car-lights-1775302_apnyf7.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom; 
+  padding: 150px 10%;
+  color: white;
+  text-align: center;
+}
+
+div.skill {
+  display: inline-block;
+  background-color: #eeeeee;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  color: black;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #111111;
+}
+
+h2.skill-title {
+  padding-top: 40px;
+}
+
+h1.skill-proficiency {
+  font-size: 30px;
+  color: #FF851B;
+}
+
+/* CONTACT ME SECTION (FOOTER) */
+div.contact-me {
+  float: left;
+  background-color: #2e4974;
+  color: white;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  
+}
+
+div.contact-info {
+  padding-left: 10%;
+  padding-bottom: 5%;
+  text-align: left;
+
+}
+
+/* RESUME DOWNLOAD SECITON (FOOTER) */
+div.download-section {
+  float: right;
+  background-color: #bbc8dd;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+}
+
+
+p#job-title {
+  text-align: center;
+  position: relative;
+  top: 35%;
+  transform: translateY(-40%);
+  font-size: 25px;
+  color: #bbbbbb;
+  font-weight: 50;
+  margin: auto;
+}
+
+img#profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(135%);
+}
+
+/* DOWNLOAD BUTTON */
+div.button{
+  background:#b27c33;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:40px;
+  font-size:1em;
+  padding:0 2em;
+  padding-top: 1.2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  width: 200px;
+  margin: 0 auto;
+}
+div.button:hover{
+  background:#fff;
+  color:#e74c3c;
+}
+div.button:before,div.button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #e74c3c;
+  transition:400ms ease all;
+}
+div.button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+div.button:hover:before,div.button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+/* PORTFOLIO PAGE */
+h1.portfolio-header{
+ text-align: center; 
+ margin-top: 200px;
+ font-size: 55px;
+ 
+}
+
+p.portfolio-subheader {
+  color: #999999;
+  text-align: center;
+  font-size: 20px;
+}
+
+div.project {
+  display: inline-block;
+  width: 365px;
+  margin: 25px;
+  box-shadow: 5px 10px 8px #666666;
+  transition: box-shadow .5s;
+}
+
+div.project:hover {
+  display: inline-block;
+  width: 365px;
+  margin: 25px;
+  box-shadow: 15px 15px 10px #666666;
+}
+
+/* PROJECT PAGES */
+div.project-container {
+  text-align: center;
+  margin-top: 250px;
+}
+div.project-image {
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+div.project-info {
+  display: inline-block;
+  max-width: 350px;
+  vertical-align: top;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+/* RESUME PAGE */
+img#resume {
+  display: block;
+  margin: 50px auto;
+  box-shadow: 5px 10px 8px #666666;
+  border-style: none;
+  border-color: white;
+  transition: box-shadow .5s;
+  transition: border-style .5s;
+  transition: border-color .5s;
+  
+}
+
+img#resume:hover {
+  box-shadow: 25px 20px 15px #666666;
+  border-style: solid;
+  border-color: #b27c33;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  div.about-me{
+    padding-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  div.download-section {
+    width: 100%;
+    
+  }
+
+  div.Id-info-section {
+    padding-left: 0;
+    padding-bottom: 5%;
+    text-align: center;
+  
+  }
+
+  div.contact-me {
+    width: 100%;
+   
+  }
+
+  input {
+    margin-left: 26%;
+    width: 45%;
+  }
+}

@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/javascripts/utils.js')
+  body
+
+    //- PAGE NAV BAR AND HERO GRAPHIC W/ RESUME DOWNLOAD CTA
+    div(class='navigation')
+      a(href='/' class='navigation-buttons') HOME
+      a(href='/portfolio' class='navigation-buttons') PORTFOLIO
+      a(href='/resume' class='navigation-buttons') RESUME
+      a(href='/#about-me' class='navigation-buttons') ABOUT ME
+    div(class='hero-graphic')
+      a(href='https://res.cloudinary.com/justin-bresee/image/upload/v1566690672/Justin_Bresee_-_Resume_vuq3vp_1_el1wyj.pdf' class='fixed' download target='_blank') 
+            div(class='button') DOWNLOAD RESUME
+      h1(id='site-title') Justin Bresee
+      p(id='job-title') Full-Stack Web Developer
+      img(src="https://res.cloudinary.com/justin-bresee/image/upload/v1566508269/IMG_3137_if46xp_htbh9w.jpg" id="profile-pic" style='border-radius: 50%; border: 8px solid #ffffff;')
+    //- BLOCK CONTENT SECTION
+    block content
+    //- END BLOCK CONTENT
+
+    //- PAGE FOOTER
+    div(style='text-align: center;')
+    div(class='contact-me')
+      h1 CONTACT ME
+      img(src='https://res.cloudinary.com/justin-bresee/image/upload/v1566574693/icons8-horizontal-line-48_e7rpby.png')
+      div(class='contact-info')
+        p PHONE &nbsp;
+          a(href='tel:817-805-1808' style='color: white;') (817) 805-1808
+        p EMAIL &nbsp;
+          a(href="mailto:justinbresee@gmail.com" target="_top" style='color: white;') justinbresee@gmail.com
+        p LINKEDIN &nbsp; 
+          a(href='https://www.linkedin.com/in/justin-bresee-909' style='color: white;') www.linkedin.com/in/justin-bresee-909
+        p FACEBOOK &nbsp;
+          a(href='https://www.facebook.com/justin.bresee' style='color: white;') www.facebook.com/justin.bresee
+    div(class='download-section')
+      h1 DOWNLOAD RESUME
+      img(src='https://res.cloudinary.com/justin-bresee/image/upload/v1566574693/icons8-horizontal-line-48_e7rpby.png')
+      a(href='https://res.cloudinary.com/justin-bresee/image/upload/v1566690672/Justin_Bresee_-_Resume_vuq3vp_1_el1wyj.pdf' download target='_blank') 
+        div(class='button') DOWNLOAD RESUME

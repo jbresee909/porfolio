@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1(class='portfolio-header') My Portfolio
+    p(class='portfolio-subheader') Click below to learn more about each of my projects
+    div(style='text-align: center; margin-bottom: 100px;')
+        for project in projects
+            div(class='project')
+                a(href="/portfolio/" + project.id)
+                    img(src=project.image_small, alt="my portfolio")
+                    h4= project.title
