@@ -274,7 +274,7 @@ img#resume:hover {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 600px) {
-  div.about-me{
+  div#about-me{
     padding-top: 250px;
   }
 }
