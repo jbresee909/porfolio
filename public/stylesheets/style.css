@@ -302,3 +302,23 @@ img#resume:hover {
     width: 45%;
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  div.navigation {
+    position: fixed;
+    background-color: #b27c33;
+    font-size: 18px;
+    opacity: 1;
+    padding: 25px;
+    margin-top: 15px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  a.navigation-buttons {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 4%;
+  }
+}
