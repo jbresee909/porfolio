@@ -321,4 +321,8 @@ img#resume:hover {
     display: inline-block;
     padding: 10px 4%;
   }
+
+  div.button{
+    display: none;
+  }
 }
