@@ -31,7 +31,15 @@ const projects = [{
   summary: 'The original version of the shingo.org website was the first web application that I had the priviledge of working on. It was a well-coded application, however, the web developers at the company were part-time student that would come and go every year or so. This made training difficult and website maintenance expensive for the company which is why we moved to the new version which is in use today.',
   image: 'https://res.cloudinary.com/justin-bresee/image/upload/c_scale,w_600/v1566595643/project%20screenshots/shingo_original_site_zpqnqn.png',
   image_small: 'https://res.cloudinary.com/justin-bresee/image/upload/c_scale,w_365/v1566595643/project%20screenshots/shingo_original_site_zpqnqn.png'
-}]
+},
+{
+  id: 5,
+  title: 'Operations Management Info Page',
+  summary: 'The idea for this project came from an assignment I was given from an operations management class while attending Utah State University. Our professor challenged us to create a deliverable for a given topic, however, the deliverable could not be a powerpoint presentation. I decided to put my coding skills to use and create a website to present this information. ',
+  image: 'https://res.cloudinary.com/justin-bresee/image/upload/c_scale,w_600/v1567611080/operations_management_pimkuk.jpg',
+  image_small: 'https://res.cloudinary.com/justin-bresee/image/upload/c_scale,w_365/v1567611080/operations_management_pimkuk.jpg'
+}
+]
 // END OF LIST
 
 
